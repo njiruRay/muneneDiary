@@ -1,0 +1,18 @@
+nav {
+  background-color: white;
+  width: 15%;
+  z-index: 10;
+  margin-left: 65%;
+  padding: 2rem;
+  position: absolute;
+}
+
+.nav-link {
+  padding: 1rem 2rem;
+  transition: 1s;
+}
+
+.nav-link:hover{
+  transform: scale(1.1, 1.1);
+  background-color: blue;
+}

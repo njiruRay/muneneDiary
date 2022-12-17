@@ -1,0 +1,61 @@
+.home {
+  margin-top: 0rem;
+  background: url('https://c1.wallpaperflare.com/preview/108/284/9/music-headphones-earphones-audio.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.home > h2 {
+  color: white;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+
+.toggle {
+  color: white; 
+  margin-left: 85%;
+}
+
+.toggle > i {
+  font-size: 2.5rem;
+}
+
+.home > h1 {
+  color: white;
+  margin-top: 8%;
+  margin-left: 5%;
+  font-size: 5rem;
+}
+
+.home > p {
+  margin-left: 5%; 
+  color: white;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  padding: 1.2rem;
+  margin-left: 5%;
+  border: none;
+  transition: 1s;
+}
+
+.btn:hover {
+  background-color: green;
+  color: white;
+}
+
+.icons {
+  color: white;
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons > i {
+  font-size: 1.5rem;
+}

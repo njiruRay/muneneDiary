@@ -57,5 +57,9 @@
 }
 
 .icons > i {
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+
+.nav-home {
+  margin-left: 65%;
 }

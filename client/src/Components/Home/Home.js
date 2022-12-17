@@ -2,14 +2,7 @@ import React, { useState } from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Home.css'
 
-function Home() {
-
-  const [showNavbar, setShowNavbar] = useState(false)
-  
-  // Handle icon click
-  function handleClick() {
-    setShowNavbar(!showNavbar)
-  }
+function Home({ setShowNavbar, handleClick, showNavbar }) {
 
   return (
     <div className='home'>
@@ -17,7 +10,9 @@ function Home() {
       <div className='toggle'>
         <i class="fa-solid fa-bars" onClick={handleClick} ></i>
       </div>
-      {showNavbar ? <Navbar /> : null }
+      <div className='nav-home'>
+        {showNavbar ? <Navbar setShowNavbar={setShowNavbar} /> : null }
+      </div>
       <h1>MUNENE'S <br/> DIARY </h1>
       <p>RELAX, BREATH IN BREATH OUT ...NOW TRUST ME WITH YOUR MOOD</p>
       <button className='btn'>SOCIALS &#8594; </button>

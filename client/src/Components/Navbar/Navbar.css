@@ -2,7 +2,7 @@ nav {
   background-color: white;
   width: 15%;
   z-index: 10;
-  margin-left: 65%;
+  /* margin-left: 65%; */
   padding: 2rem;
   position: absolute;
 }
